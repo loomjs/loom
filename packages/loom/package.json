@@ -1,5 +1,5 @@
 {
-  "name": "loom-composer",
+  "name": "@loomjs/loom",
   "version": "0.0.1",
   "description": "Runtime for composing loom applications",
   "main": "lib/index.js",

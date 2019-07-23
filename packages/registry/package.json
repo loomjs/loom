@@ -1,5 +1,5 @@
 {
-  "name": "loom-registry",
+  "name": "@loomjs/registry",
   "version": "0.0.1",
   "description": "Centralised store for loom modules",
   "main": "lib/index.js",
