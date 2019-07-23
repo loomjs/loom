@@ -1,0 +1,9 @@
+{
+  "name": "@loomjs/registry",
+  "version": "0.0.1",
+  "description": "Centralised store for loom modules",
+  "main": "lib/index.js",
+  "repository": "https://github.com/loomjs/loom/tree/master/packages/loom-registry",
+  "author": "Loom.js Contributors <team@loomjs.dev>",
+  "license": "MIT"
+}

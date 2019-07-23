@@ -1,0 +1,9 @@
+{
+  "name": "@loomjs/loom",
+  "version": "0.0.1",
+  "description": "Runtime for composing loom applications",
+  "main": "lib/index.js",
+  "repository": "https://github.com/loomjs/loom/tree/master/packages/loom-composer",
+  "author": "Loom.js Contributors <team@loomjs.dev>",
+  "license": "MIT"
+}
