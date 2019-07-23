@@ -1,0 +1,9 @@
+{
+  "name": "loom-registry",
+  "version": "0.0.1",
+  "description": "Centralised store for loom modules",
+  "main": "lib/index.js",
+  "repository": "https://github.com/loomjs/loom/tree/master/packages/loom-registry",
+  "author": "Alexandr Lazarev <diedsmiling@gmail.com>, Omar Ahmed <omar@omar.de>",
+  "license": "MIT"
+}
