@@ -1,0 +1,20 @@
+---
+name: Core Concepts
+route: /core-concepts
+---
+
+# Core Concepts
+
+Loom.js tries to make is simpler to manage ReactJS projects that have multiple different components rendered in different conditions.
+
+Let's consider the case of a typical e-commerce application, LoomBay, that has the following steps in its user flow:
+
+  - home page
+  - search page
+  - checkout page
+
+Initially, LoomBay has 3 frontend developers, each one of them working on one part of the flow. All three of them have a repository, and their contact surface is simple links.
+
+In comes a new developer, Lisa, who is tasked with creating LoomBay's account system and needs to add a "Sign In" button to the header of all pages. She creates her own repository, writes a library and then opens 3 Pull Requests against the existing repositories that render her component.
+
+This is where the nightmare begins. Lisa needs to open 3 PRs each time she updates her library. Deployments are desynchronized so users start seeing different "Sign In" buttons on the home page and the search page. Lisa's contract with the owners of each page becomes larger everyday until it becomes unmaintainable.
