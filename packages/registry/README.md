@@ -5,3 +5,14 @@ Registry is a centralized store for loom modules. Every module in a loom applica
 ### Regisrty api
 
 "Registry" doesn't store the modules themselves, just the data about them. For communication with loom runtime on one hand, and developers on the other, Registry exposes REST API. Main resource of this API is a Module. For more details please read [Registry API documentation](./docs/API.md).  
+
+### Development
+Node version: v10.16.0
+
+Instructions:
+
+* Install dependencies: ```yarn```
+* Start watcher: ```yarn watch```
+
+### Tests
+
