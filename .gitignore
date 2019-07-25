@@ -1,0 +1,13 @@
+.DS_Store
+
+.vscode
+.idea
+
+**/coverage
+**/dist
+**/lib
+**/npm-debug.log
+**/node_modules
+**/package-lock.json
+**/yarn-error.log
+
