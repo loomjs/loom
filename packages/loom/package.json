@@ -5,5 +5,23 @@
   "main": "lib/index.js",
   "repository": "https://github.com/loomjs/loom/tree/master/packages/loom-composer",
   "author": "Loom.js Contributors <team@loomjs.dev>",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.24",
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "eslint": "^6.1.0",
+    "prettier": "^1.18.2",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "tslint": "^5.18.0"
+  }
 }
