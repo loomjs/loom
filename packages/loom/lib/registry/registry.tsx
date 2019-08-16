@@ -7,7 +7,7 @@ const defaultContext : RegistryContext = {
 
 const Context = createContext<Partial<RegistryContext>>(defaultContext)
 
-export class Registry extends Component<RegistryProps, RegistryState> {
+class Registry extends Component<RegistryProps, RegistryState> {
     private static displayName = 'LoomRegistry'
 
     private static defaultState: RegistryState = {
@@ -39,3 +39,5 @@ export class Registry extends Component<RegistryProps, RegistryState> {
         );
     }
 }
+
+export default Registry;

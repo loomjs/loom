@@ -1,3 +1,3 @@
-import { Region } from './region';
+import Region from './region';
 
 export default Region;

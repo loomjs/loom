@@ -11,7 +11,7 @@ const Context = createContext<Partial<RegistryContext>>(defaultContext)
  * Registry is loom's main context provider. It injects all available modules to
  * its children as context, allowing any Region in its sub-tree to render the necessary modules.
  */
-export class Region extends Component {
+class Region extends Component {
     private static displayName = 'LoomRegion'
 
     public render(): ReactNode {
@@ -22,3 +22,5 @@ export class Region extends Component {
         );
     }
 }
+
+export default Region;
