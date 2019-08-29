@@ -14,7 +14,7 @@
   "author": "Marc Bramaud",
   "license": "MIT",
   "devDependencies": {
-    "docz": "^2.0.0-rc.1",
+    "docz": "^2.0.0-rc.8",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   }
