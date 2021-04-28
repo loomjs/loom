@@ -1,0 +1,30 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/packages/registry"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+- package-ecosystem: npm
+  directory: "/packages/loom"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+- package-ecosystem: npm
+  directory: "/docs"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: react
+    versions:
+    - 16.14.0
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: react-dom
+    versions:
+    - 16.13.1
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
